@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: sandboxed-containers-operator-by2i
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-dbox-containers-tenant/sandboxed-containers-operator-1/sandboxed-containers-operator-by2i@sha256:ff6d0bb0d4337d20dc1c3feb85d050d7f57c42a2fd6985f69bdfca3eb8029023
         imagePullPolicy: Always
         name: container-image
         ports:
